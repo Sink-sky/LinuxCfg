@@ -10,6 +10,6 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$zsh_custom_
 
 script_path=$(readlink -f "$0")
 work_path=$(dirname "$script_path")
-cp "$work_path"/zshrc ~/.zshrc
+cp "$work_path"/../zshrc ~/.zshrc
 
 chsh -s /bin/zsh
