@@ -9,7 +9,6 @@
 	cf = config
 	graph = log --graph --decorate --oneline --all
 [core]
-	autocrlf = true
 	editor = vim
 
 # URL shorthands
