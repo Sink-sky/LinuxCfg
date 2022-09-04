@@ -1,6 +1,10 @@
 #!/bin/bash
 
-sudo apt install zsh
+sudo apt install -y zsh
+
+if [ -d "$HOME/.oh-my-zsh" ]; then
+	rm -rf ~/.oh-my-zsh
+fi
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 
 zsh_custom_path="${ZSH_CUSTOM:-"$HOME"/.oh-my-zsh/custom}"
