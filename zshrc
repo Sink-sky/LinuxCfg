@@ -112,4 +112,4 @@ source $ZSH/oh-my-zsh.sh
 
 # fzf
 [ -f ~/.fzf.zsh ] && source /usr/share/doc/fzf/examples/key-bindings.zsh
-[ -f ~/.fzf.zsh ] && source /usr/share/doc/fzf/examples/completion.zsh
+# [ -f ~/.fzf.zsh ] && source /usr/share/doc/fzf/examples/completion.zsh
