@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo apt install -y zsh
-
 if [ -d "$HOME/.oh-my-zsh" ]; then
 	rm -rf ~/.oh-my-zsh
 fi
